@@ -47,7 +47,7 @@ a {
 .navbutton .dropdown {
     visibility: hidden;
     position: absolute;
-    margin: 20px 0 0 -27px;
+    margin: 15px 0 0 -27px;
 }
 
 .navbutton:hover .dropdown {
@@ -60,10 +60,11 @@ a {
 }
 .dropdown .navbutton a {
     color: #fa4083;
+    font-size: 90%;
 }
 .dropdown .navbutton:hover {
     background-color: #000;
-    transition-duration: 300ms;
+    transition-duration: 0.3s;
 }
 
 /* MAIN PART STYLES */
