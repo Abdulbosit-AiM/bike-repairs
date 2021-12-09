@@ -1,6 +1,7 @@
 
 
 html {
+    height: 100%;
     background-image: linear-gradient(#fc5e55, #fa4083);
 }
 
@@ -13,7 +14,11 @@ body {
 .container {
     width: 1024px;
     margin: 0 auto;
+    min-height: 300px;
 }
+
+
+/* HEADER PART STYLES */
 
 header {
     display: flex;
@@ -28,6 +33,7 @@ a {
     text-decoration: none;
 }
 
+/* NAVBUTTONS */
 .navbutton {
     padding: 10px 25px;
     border: 1px solid white;
@@ -59,3 +65,6 @@ a {
     background-color: #000;
     transition-duration: 300ms;
 }
+
+/* MAIN PART STYLES */
+
