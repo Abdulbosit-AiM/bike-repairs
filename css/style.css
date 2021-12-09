@@ -68,3 +68,42 @@ a {
 
 /* MAIN PART STYLES */
 
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.mainbox1 {
+    flex: 2;
+    color: white;
+    padding-right: 7rem;
+}
+
+.mainbox2 {
+    flex: 1;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+main p {
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.book-button {
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 2px;
+    display: inline-block;
+    background-color: #fff;
+    color: #fa4083;
+}
+
+.book-button:hover {
+    background-color: #3feb00;
+}
