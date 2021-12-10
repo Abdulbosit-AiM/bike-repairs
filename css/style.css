@@ -94,8 +94,7 @@ main {
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3.25rem;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 main p {
@@ -119,3 +118,39 @@ main p {
 
 /* CARDS PART STYLES */
 
+.cards {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards div {
+    width: 30%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: #fff;
+}
+i {
+    font-size: 100px;
+}
+.card1 {
+    background-image: url(../images/image-background-card1.jpg);
+}
+.card2 {
+    background-image: url(../images/image-background-card2.jpg);
+}
+.card3 {
+    background-image: url(../images/image-background-card3.jpg);
+}
+
+.cards div p{
+    padding: 0 0.75rem;
+}
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
