@@ -1,5 +1,10 @@
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap');
+/* Usage
 
-
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+*/
 html {
     height: 100%;
     background-image: linear-gradient(#fc5e55, #fa4083);
@@ -31,6 +36,7 @@ header {
 a {
     color: #fff;
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
 }
 
 /* NAVBUTTONS */
@@ -86,7 +92,8 @@ main {
 }
 
 h1 {
-    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.25rem;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
 }
@@ -94,6 +101,7 @@ h1 {
 main p {
     line-height: 1.2;
     margin-bottom: 0.5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .book-button {
@@ -108,3 +116,6 @@ main p {
 .book-button:hover {
     background-color: #3feb00;
 }
+
+/* CARDS PART STYLES */
+
