@@ -119,20 +119,27 @@ main p {
 /* CARDS PART STYLES */
 
 .cards {
-    height: 300px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 .cards div {
     width: 30%;
-    height: 100%;
-    background-position: center;
+    min-height: 250px;
+    background-position: bottom;
     background-size: cover;
     text-align: center;
     display: grid;
     place-items: center;
     color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease-in-out;
+}
+.cards div:hover {
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.7);
+    transform: scale(1.03);
 }
 i {
     font-size: 100px;
@@ -147,10 +154,17 @@ i {
     background-image: url(../images/image-background-card3.jpg);
 }
 
-.cards div p{
+.cards div a p{
+    font-family: 'Roboto', sans-serif;
+    margin: 0.75rem 0;
     padding: 0 0.75rem;
 }
+
+
 h2 {
     font-size: 2rem;
+    margin-top: 0.75rem;
     font-family: 'Playfair Display', serif;
 }
+
+/* TESTIMONIAL PART STYLES */
