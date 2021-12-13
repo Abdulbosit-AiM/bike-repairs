@@ -7,7 +7,7 @@ font-family: 'Roboto', sans-serif;
 */
 html {
     height: 100%;
-    background-image: linear-gradient(to right,#fc5e55, #fa4083);
+    background-image: linear-gradient(to right,#fc5e55, #fa4083); 
 }
 
 body {
@@ -122,20 +122,17 @@ main p {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
-    box-sizing: border-box;
 }
 
-.cards div {
+.card1, .card2, .card3{
     width: 30%;
     min-height: 250px;
     background-position: bottom;
     background-size: cover;
     text-align: center;
-    display: grid;
-    place-items: center;
     color: #fff;
-    padding: 1rem;
     box-sizing: border-box;
+    padding: 1rem;
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
     transition: all 0.4s ease-in-out;
 }
@@ -156,12 +153,11 @@ i {
     background-image: url(../images/image-background-card3.jpg);
 }
 
-.cards div a p{
+a p{
     font-size: 0.85rem;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
-
 
 h2 {
     font-size: 2rem;
@@ -170,3 +166,23 @@ h2 {
 }
 
 /* TESTIMONIAL PART STYLES */
+
+.testimonials {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tbox {
+    box-sizing: border-box;
+    border: 1px solid white;
+    width: 48%;
+    padding: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+em {
+    margin-left: 1rem;
+}
