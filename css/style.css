@@ -191,10 +191,15 @@ em {
 /* CONTACT PAGE STYLES */
 
 .contact {
+    text-align: right;
     flex-direction: column;
     color: #fff;
 }
 
 #contact-h1 {
     padding-top: 2rem;
+}
+
+.inputwrapper {
+    margin-bottom: 20px;
 }
