@@ -191,9 +191,12 @@ em {
 /* CONTACT PAGE STYLES */
 
 .contact {
-    text-align: right;
-    flex-direction: column;
+    display: block;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+form {
+    margin: 20px 0;
 }
 
 #contact-h1 {
@@ -202,4 +205,11 @@ em {
 
 .inputwrapper {
     margin-bottom: 20px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px 20px;
+}
+label[for=phone]{
+    margin-right: 20px;
 }
