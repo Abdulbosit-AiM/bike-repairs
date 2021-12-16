@@ -209,6 +209,8 @@ form {
 input[type="text"], input[type="email"], textarea {
     width: 100%;
     padding: 10px 20px;
+    font-size: 0.85rem;
+    box-sizing: border-box;
 }
 label[for=phone]{
     margin-right: 20px;
